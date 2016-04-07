@@ -1,0 +1,11 @@
+<section>
+  <h3>Overview for Meal {{id}}</h3>
+  <button ng-click="prev()" class="btn btn-md btn-info">Previous Meal</button>
+  <button ng-click="next()" class="btn btn-md btn-info">Next Meal</button>
+  <br>
+  <h4>Subtotal: {{base | currency}}</h4>
+  <h4>Tax: {{tax | currency}}</h4>
+  <h4>Tip: {{tip | currency}}</h4>
+  <hr>
+  <h4>Total: {{total | currency}}</h4>
+</section>
